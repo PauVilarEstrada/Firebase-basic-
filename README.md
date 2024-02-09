@@ -5,7 +5,7 @@
 # Async Drive
 This Android Studio project leverages Firebase to streamline user management through authentication. It seamlessly integrates Firestore Database for efficient data storage and retrieval. Additionally, it harnesses Firebase Cloud Messaging (FCM) for real-time communication, making it an ideal solution for user-centric applications. 2024.
 
-App Usage:
+# App Usage:
 This project focuses on managing a document stored in the Firestore database. It includes authentication and has a limit of 2 users. The database utilizes a counter starting at 0, preventing further user registration once it reaches 2. The messaging system retrieves the user's token and stores it in the database. Sending test messages using API 31 functions correctly.
 
 ## Description:
