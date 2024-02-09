@@ -54,7 +54,9 @@ Async Drive, powered by Firebase, provided insights into app creation with Fireb
 This is a basic Firebase project for educational purposes, utilizing the free Firebase plan for a 30-day trial. Users are encouraged to create their Firebase project for extended usage.
 
 # Español:
-
+# Proyecto basico de Firebase
+# Async Drive
+Este proyecto de Android Studio aprovecha Firebase para simplificar la gestión de usuarios a través de la autenticación. Integra de manera transparente Firestore Database para un almacenamiento y recuperación eficientes de datos. Además, utiliza Firebase Cloud Messaging (FCM) para la comunicación en tiempo real, convirtiéndolo en una solución ideal para aplicaciones centradas en el usuario. 2024
 ## Descripción:
 Async Drive es una aplicación basada en los servicios de Firebase que permite el registro de hasta 2 usuarios, inicio de sesión y modificación de documentos de texto. Utiliza Firebase Authentication para la gestión de identidad, Firestore Database para almacenamiento de datos y Firebase Cloud Messaging (FCM) para comunicación en tiempo real entre usuarios.
 
