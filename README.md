@@ -1,8 +1,12 @@
 # Firebase basic proyect
-# Async Drive
-This Android Studio project leverages Firebase to streamline user management through authentication. It seamlessly integrates Firestore Database for efficient data storage and retrieval. Additionally, it harnesses Firebase Cloud Messaging (FCM) for real-time communication, making it an ideal solution for user-centric applications. 2024
+
 
 # English:
+# Async Drive
+This Android Studio project leverages Firebase to streamline user management through authentication. It seamlessly integrates Firestore Database for efficient data storage and retrieval. Additionally, it harnesses Firebase Cloud Messaging (FCM) for real-time communication, making it an ideal solution for user-centric applications. 2024.
+
+App Usage:
+This project focuses on managing a document stored in the Firestore database. It includes authentication and has a limit of 2 users. The database utilizes a counter starting at 0, preventing further user registration once it reaches 2. The messaging system retrieves the user's token and stores it in the database. Sending test messages using API 31 functions correctly.
 
 ## Description:
 Async Drive is a Firebase-based application that allows the registration of up to 2 users, login functionality, and text document modification. It utilizes Firebase Authentication for user identity management, Firestore Database for data storage, and Firebase Cloud Messaging (FCM) for real-time communication between users.
@@ -53,10 +57,14 @@ Async Drive, powered by Firebase, provided insights into app creation with Fireb
 
 This is a basic Firebase project for educational purposes, utilizing the free Firebase plan for a 30-day trial. Users are encouraged to create their Firebase project for extended usage.
 
+
 # Español:
 # Proyecto basico de Firebase
 # Async Drive
-Este proyecto de Android Studio aprovecha Firebase para simplificar la gestión de usuarios a través de la autenticación. Integra de manera transparente Firestore Database para un almacenamiento y recuperación eficientes de datos. Además, utiliza Firebase Cloud Messaging (FCM) para la comunicación en tiempo real, convirtiéndolo en una solución ideal para aplicaciones centradas en el usuario. 2024
+Este proyecto de Android Studio aprovecha Firebase para simplificar la gestión de usuarios a través de la autenticación. Integra de manera transparente Firestore Database para un almacenamiento y recuperación eficientes de datos. Además, utiliza Firebase Cloud Messaging (FCM) para la comunicación en tiempo real, convirtiéndolo en una solución ideal para aplicaciones centradas en el usuario. 2024.
+
+# Uso de la app:
+Este proyecto se centra en la gestión de un documento que se guarda en la base de datos de Firestore. Incluye autenticación y tiene un límite de 2 usuarios. La base de datos utiliza un contador que comienza en 0 y, cuando alcanza 2, impide el registro de más usuarios. El sistema de mensajería obtiene el token del usuario y lo almacena en la base de datos. El envío de mensajes de prueba utilizando la API 31 funciona correctamente.
 ## Descripción:
 Async Drive es una aplicación basada en los servicios de Firebase que permite el registro de hasta 2 usuarios, inicio de sesión y modificación de documentos de texto. Utiliza Firebase Authentication para la gestión de identidad, Firestore Database para almacenamiento de datos y Firebase Cloud Messaging (FCM) para comunicación en tiempo real entre usuarios.
 
